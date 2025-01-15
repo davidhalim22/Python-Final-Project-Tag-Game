@@ -11,11 +11,11 @@ import random
 
 init()
 player_points = 0  # Player's initial score
-enemy_points = 4  # Enemy's initial score
+enemy_points = 0  # Enemy's initial score
 num = None  # Random number for determining tag
 
 start_time = tm.time()  # Timer start time
-timer_duration = 5  # Duration of the timer in seconds
+timer_duration = 60  # Duration of the timer in seconds
 
 display.set_caption("Space Tag")  # Set game window title
 
